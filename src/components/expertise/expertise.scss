@@ -1,0 +1,30 @@
+.exp {
+    background-size: cover;
+    background-position: center;
+    padding: 360px 0 32px 0;
+    display: flex;
+    justify-content: center;
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        &__title {
+            font-family: $fraunces;
+            color: $darkCyan;
+            font-weight: 900;
+            font-size: 28px;
+            text-align: center;
+            margin: 0px;
+        }
+        &__desc {
+            font-family: $barlow;
+            color: $darkCyan;
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            line-height: 28px;
+            margin: 24px 0 0 0;
+        }
+    }
+}

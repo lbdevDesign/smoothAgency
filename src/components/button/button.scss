@@ -1,0 +1,20 @@
+.button {
+    position: relative;
+    font-family: $fraunces;
+    color: $veryDarkSatBlue;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: transparent;
+    border: transparent;
+    text-transform: uppercase;
+    &__shape {
+        position: absolute; 
+        top: 50%; 
+        left: 0;
+        height: 12px;
+        width: 100%; 
+        opacity: 40%;
+        z-index: -1; 
+        border-radius: 20px; 
+    }
+}

@@ -1,0 +1,32 @@
+.prez {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__img {
+        width: 100%;
+    }
+    &__text {
+        width: 90%;
+        padding: 62px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &--title {
+            font-family: $fraunces;
+            color: $veryDarkSatBlue;
+            font-weight: 900;
+            font-size: 32px;
+            text-align: center;
+            margin: 0px;
+        }
+        &--desc {
+            font-family: $barlow;
+            color: $darkGreyBlue;
+            font-weight: 600;
+            font-size: 20px;
+            text-align: center;
+            line-height: 32px;
+            margin: 24px 0 32px;
+        }
+    }
+}

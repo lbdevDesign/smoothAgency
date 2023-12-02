@@ -1,0 +1,21 @@
+.hero {
+    background-image: url("../../assets/image-header.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title {
+        color: white;
+        font-family: $fraunces;
+        font-weight: 900;
+        font-size: 36px;
+        text-align: center;
+        letter-spacing: 4px;
+        margin: 100px 0 32px 0;
+    }
+    &__arrow {
+        margin-bottom: 152px;
+    }
+}
