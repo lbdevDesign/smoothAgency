@@ -2,11 +2,16 @@
 //Settings
 @import './settings.scss';
 
+//Pages
+@import '../pages/homepage.scss';
+
+
 //components
 @import '../components/hero/hero.scss';
 @import '../components/advantage/advantage.scss';
 @import '../components/button/button.scss';
 @import '../components/expertise/expertise.scss';
+@import '../components/testimonials/testimonials.scss';
 
 body {
   margin: 0;

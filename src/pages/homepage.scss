@@ -1,0 +1,17 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+    &__title {
+        font-family: $fraunces;
+        color: $greyBlue;
+        font-weight: 900;
+        font-size: 20px;
+        letter-spacing: 8px;
+        line-height: 32px;
+        text-align: center;
+        margin: 0px;
+        text-transform: uppercase;
+    }
+}

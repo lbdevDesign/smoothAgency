@@ -1,0 +1,42 @@
+.testi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 44px 0 32px 0;
+    &__img {
+        border-radius: 100%;
+        width: 80px;
+    }
+    &__text {
+        font-family: $barlow;
+        color: $veryDarkGreyBlue;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        line-height: 28px;
+        margin: 24px 0 0 0;
+        width: 90%;
+    }
+    &__profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 24px 0 0 0;
+        &--name {
+            font-family: $fraunces;
+            color: $veryDarkSatBlue;
+            font-weight: 900;
+            font-size: 20px;
+            text-align: center;
+            margin: 0px;
+        }
+        &--position {
+            font-family: $barlow;
+            color: $greyBlue;
+            font-weight: 900;
+            font-size: 14px;
+            text-align: center;
+            margin: 12px 0 0 0;
+        }
+    }
+}
