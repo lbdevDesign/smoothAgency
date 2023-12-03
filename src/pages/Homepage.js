@@ -5,6 +5,9 @@ import Hero from "../components/hero/hero";
 //header
 import Header from '../components/header/header';
 
+//footer
+import Footer from '../components/footer/footer';
+
 //advantages
 import Expertise from '../components/expertise/expertise';
 import eggImg from "../assets/image-transform.jpg";
@@ -62,6 +65,8 @@ function Homepage() {
         <div className='gallery__photo'><img src={gallery3} alt='Icecream Cone'/></div>
         <div className='gallery__photo'><img src={gallery4} alt='Sugar Cubes'/></div>
       </div>
+
+      <Footer />
     </>
   );
 }

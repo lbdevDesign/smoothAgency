@@ -43,33 +43,33 @@
     &__menunull {
         display: none;
     }
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    margin: 24px 0;
-    li {
-        padding: 1rem; 
-        a {
-            text-decoration: none;
-            font-family: $barlow;
-            font-size: 20px;
-            color: $darkGreyBlue; 
-        }
-        .contact-button {
-            background-color: $yellow; 
-            border: none;
-            padding: 20px 28px;
-            border-radius: 50px;
-            font-family: $fraunces;
-            font-weight: 900;
-            font-size: 16px;
-            text-transform: uppercase;
-            cursor: pointer;
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 24px 0;
+        li {
+            padding: 1rem; 
+            a {
+                text-decoration: none;
+                font-family: $barlow;
+                font-size: 20px;
+                color: $darkGreyBlue; 
+            }
+            .contact-button {
+                background-color: $yellow; 
+                border: none;
+                padding: 20px 28px;
+                border-radius: 50px;
+                font-family: $fraunces;
+                font-weight: 900;
+                font-size: 16px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
         }
     }
 }
+
