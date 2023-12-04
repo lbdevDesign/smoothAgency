@@ -22,6 +22,14 @@ function Header() {
                     <li><button className="contact-button">Contact</button></li>
                 </ul>
             </div>
+            <div className='header__menudesk'>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><button className="header__menudesk--contact">Contact</button></li>
+                </ul>
+            </div>
         </header>
     );
 }

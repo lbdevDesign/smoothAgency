@@ -32,9 +32,19 @@
             }
         }
         &--socials {
-            width: 40%;
+            width: 180px;
             display: flex;
             justify-content: space-between;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        &__content {
+            &--links {
+                margin: 24px 0 48px 0;
+            }
         }
     }
 }

@@ -30,3 +30,26 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .row {
+        flex-direction: row;
+    }
+    .row-reverse {
+        flex-direction: row-reverse;
+    }
+    
+    .prez {
+        &__text {
+           padding: 0px 144px;
+           align-items: flex-start;
+           &--title {
+            text-align: left;
+            font-size: 40px;
+           }
+           &--desc {
+            text-align: left;
+           }
+        }
+    }
+}

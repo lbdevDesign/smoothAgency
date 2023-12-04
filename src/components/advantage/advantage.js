@@ -1,8 +1,11 @@
 import LearnMoreCta from "../button/button";
 
-function Advantage({img, alt, title, text}) {
+function Advantage({img, alt, title, text, reverse}) {
+
+    const containerClass = reverse ? 'prez row-reverse' : 'prez row';
+
     return (
-        <section className='prez'>
+        <section className={containerClass}>
             <img src={img} alt={alt} className='prez__img' />
             <div className='prez__text'>
                 <h2 className='prez__text--title'>{title}</h2>

@@ -71,5 +71,43 @@
             }
         }
     }
+    &__menudesk {
+        display: none;
+    }
 }
+
+@media screen and (min-width: 1024px) {
+    .header {
+        padding: 20px 24px;
+        &__burger {
+            display: none;
+        }
+        &__menudesk {
+            display: block;
+            ul {
+                flex-direction: row;
+                margin: 0px;
+                li {
+                    padding: 0 0 0 32px;
+                    a {
+                       color: $white; 
+                       font-size: 16px;
+                    }
+                }
+            }
+            &--contact {
+                background-color: hsl(255, 255, 255, 0.25);
+                border: none;
+                color: $white;
+                padding: 16px 24px;
+                border-radius: 50px;
+                font-family: $fraunces;
+                font-weight: 900;
+                font-size: 14px;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+        }
+    }
+  }
 

@@ -15,7 +15,32 @@
         letter-spacing: 4px;
         margin: 84px 0 32px 0;
     }
+    &__titledesk {
+        display: none;
+    }
     &__arrow {
         margin-bottom: 152px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        background-position: bottom;
+        &__title {
+            display: none;
+        }
+        &__titledesk {
+            display: flex;
+            color: white;
+            font-family: $fraunces;
+            font-weight: 900;
+            font-size: 56px;
+            text-align: center;
+            letter-spacing: 8px;
+            margin: 64px 0 84px 0;
+        }
+        &__arrow {
+            margin-bottom: 300px;
+        }
     }
 }
