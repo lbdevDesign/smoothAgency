@@ -7,14 +7,30 @@
     background-color: transparent;
     border: transparent;
     text-transform: uppercase;
+    &__link {
+        text-decoration: none;
+        color: $veryDarkSatBlue;
+    }
     &__shape {
         position: absolute; 
         top: 50%; 
         left: 0;
         height: 12px;
         width: 100%; 
-        opacity: 40%;
         z-index: -1; 
         border-radius: 20px; 
+        opacity: 0; 
+        transition: opacity 0.3s ease;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .button {
+        &:hover {
+            &__shape {
+              opacity: 80%;
+            }
+        }
+    }
+}
+

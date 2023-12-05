@@ -40,8 +40,11 @@
     }
     
     .prez {
+        &__img {
+            width: 50%;
+        }
         &__text {
-           padding: 0px 144px;
+           padding: 0px 8vw;
            align-items: flex-start;
            &--title {
             text-align: left;

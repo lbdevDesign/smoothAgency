@@ -91,7 +91,10 @@
                     padding: 0 0 0 32px;
                     a {
                        color: $white; 
-                       font-size: 16px;
+                       font-size: 20px;
+                       &:hover {
+                        text-decoration: underline;
+                       }
                     }
                 }
             }
@@ -106,6 +109,11 @@
                 font-size: 14px;
                 text-transform: uppercase;
                 cursor: pointer;
+                transition: 0.3s ease;
+                &:hover {
+                    background-color: hsl(255, 255, 255, 1);
+                    color: $veryDarkSatBlue;
+                }
             }
         }
     }

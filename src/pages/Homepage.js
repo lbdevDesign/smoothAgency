@@ -33,7 +33,7 @@ function Homepage() {
       <Hero /> 
 
       {advantageData.map((advitem) => (
-        <ButtonColorContext.Provider value={{ color: advitem.buttonColor }}>
+        <ButtonColorContext.Provider value={advitem.buttonColor}>
           <Advantage
             key={advitem.id}
             img={advitem.img}
