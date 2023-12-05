@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React, { useState } from 'react';
+import React from 'react';
 import Hero from "../components/hero/hero";
 
 //header
