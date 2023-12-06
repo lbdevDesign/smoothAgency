@@ -42,7 +42,7 @@
     .prez {
         &__img {
             flex: 1;
-            width: 50%;
+            min-width: 50vw;
         }
         &__text {
             flex: 1;
