@@ -41,18 +41,20 @@
     
     .prez {
         &__img {
+            flex: 1;
             width: 50%;
         }
         &__text {
-           padding: 0px 8vw;
-           align-items: flex-start;
-           &--title {
-            text-align: left;
-            font-size: 40px;
-           }
-           &--desc {
-            text-align: left;
-           }
+            flex: 1;
+            padding: 0px 8vw;
+            align-items: flex-start;
+            &--title {
+                text-align: left;
+                font-size: 40px;
+            }
+            &--desc {
+                text-align: left;
+            }
         }
     }
 }
