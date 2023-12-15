@@ -1,4 +1,4 @@
-import ArrowDown from '../../assets/icon-arrow-down.svg'
+import ArrowDown from '../../assets/icon-arrow-down.svg';
 
 function Hero() {
     return (
